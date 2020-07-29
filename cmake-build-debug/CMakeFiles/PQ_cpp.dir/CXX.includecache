@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/MyClionSapce/PQ.cpp/PQ.h
+iostream
+-
+vector
+-
+cstring
+-
+math.h
+-
+
+E:/MyClionSapce/PQ.cpp/main.cpp
+iostream
+-
+PQ.h
+E:/MyClionSapce/PQ.cpp/PQ.h
+st.h
+E:/MyClionSapce/PQ.cpp/st.h
+
+E:/MyClionSapce/PQ.cpp/st.h
+
